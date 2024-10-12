@@ -1,5 +1,6 @@
 from django.urls import path
+from .views import Grate
 
 urlpatterns = [
-    # path(),
+    path('goldrate/',Grate.as_view()),
 ]
